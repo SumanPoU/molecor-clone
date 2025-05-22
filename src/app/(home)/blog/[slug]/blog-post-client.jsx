@@ -10,7 +10,7 @@ import { format } from "date-fns";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Card } from "@/components/ui/card";
-import ShareThis from "../../_components/ShareThis";
+// import ShareThis from "../../_components/ShareThis";
 
 export default function BlogPostClient({ slug }) {
   const [post, setPost] = useState(null);
